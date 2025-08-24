@@ -1,0 +1,17 @@
+{
+  "name": "hono-prisma-vercel",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "prisma generate",
+    "postinstall": "prisma generate"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.14.0",
+    "hono": "^4.9.4"
+  },
+  "devDependencies": {
+    "prisma": "^6.14.0",
+    "typescript": "^5.9.2"
+  }
+}
