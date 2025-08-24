@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "vercel dev",
-    "build": "prisma generate",
-    "postinstall": "prisma generate"
+    "build": "prisma generate"
   },
   "dependencies": {
     "@prisma/client": "^6.14.0",
