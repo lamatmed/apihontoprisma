@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "vercel dev",
-    "build": "echo 'skip prisma generate on vercel'",
+    "build": "tsc",
+    "postinstall": "prisma generate",
     "start": "node dist/index.js"
   },
   "dependencies": {
@@ -11,7 +12,6 @@
     "hono": "^4.9.4"
   },
   "devDependencies": {
-    "@types/node": "^24.3.0",
     "prisma": "^6.14.0",
     "typescript": "^5.9.2"
   }
