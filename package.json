@@ -2,9 +2,9 @@
   "name": "hono-prisma-vercel",
   "version": "1.0.0",
   "scripts": {
-    "dev": "vercel dev",
-  "build": "tsc && npx prisma generate",
-     "start": "node dist/index.js"
+   "dev": "vercel dev",
+    "build": "tsc",
+    "start": "node dist/index.js"
   },
   "dependencies": {
     "@prisma/client": "^6.14.0",
